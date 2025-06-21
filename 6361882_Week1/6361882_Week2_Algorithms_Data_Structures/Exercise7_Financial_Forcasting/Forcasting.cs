@@ -8,7 +8,6 @@ namespace Finance_Forcasting
 {
     public class Forecast
     {
-        // Simple recursive method to calculate future value
         public double GetFutureValue(double value, double rate, int year)
         {
             if (year == 0)
