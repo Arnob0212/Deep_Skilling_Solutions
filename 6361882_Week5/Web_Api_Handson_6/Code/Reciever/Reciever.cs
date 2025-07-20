@@ -17,7 +17,7 @@ class ChatConsumer
 
         consumer.Subscribe("chat-topic");
 
-        Console.WriteLine("📥 Chat Receiver Started (press Ctrl+C to stop)");
+        Console.WriteLine("Chat Receiver Started (press Ctrl+C to stop)");
 
         try
         {
